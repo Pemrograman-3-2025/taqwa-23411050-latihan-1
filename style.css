@@ -1,0 +1,100 @@
+ 
+.btn {
+    width: 130px;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #171717;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: all .4s;
+   }
+   
+   .btn:hover {
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #f85959,
+     0 15px 0 -4px #39a2db,
+     0 16px 10px -3px #39a2db;
+   }
+   
+   .btn:active {
+    transition: all 0.2s;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 0 -2px #f85959,
+     0 8px 0 -4px #39a2db,
+     0 12px 10px -3px #39a2db;
+   }
+   .tombol-k{
+    border: 2px solid black;
+    color: white;
+    background-color: grey;
+    font-size: 12;
+    border-radius: 6px 0px 9px 0px; 
+    /* angka di hitung dri pojok kiri atas */
+    margin: 5px 5px 10px 2px;
+    /* atas kanan bawah kiri */
+    padding: 3px 5px 3px 5px;
+
+   }
+   .tombol-i{
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-family: system-ui;
+    margin: 5px 10px 10px 2px;
+    padding: 3px 7px;
+
+   }
+   .tombol-i:hover{
+    background-color: rgb(180, 175, 175);
+    color: #fff;
+    border: 1px solid black;
+   }
+   .table-1{
+    color: rgb(0, 0, 0);
+    border-collapse: collapse;
+    
+   }
+   .table-1 th,td{
+    padding: 5px;
+    text-align: left;
+    border-bottom:1px solid #424141;
+   
+   }
+   tr:hover{
+    background-color: rgba(37, 37, 16, 0.479);
+   }
+   .tombol-edit{
+    background-color: rgb(195, 0, 255);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(195, 0, 255);
+    border-radius: 3px;
+    font-family: system-ui;
+    margin:1px;
+    padding: 2px 7px;
+
+   }
+
+    .tombol-edit:hover{
+    background-color: rgb(208, 91, 243);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(195, 0, 255);
+        }
+    .tombol-delete{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    font-family: system-ui;
+    margin:1px;
+    padding: 2px 7px;
+
+   }
+   .tombol-delete:hover{
+    background-color: rgb(238, 86, 86);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 0);
+   }
