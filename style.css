@@ -27,24 +27,29 @@
      0 12px 10px -3px #39a2db;
    }
    .tombol-k{
-    border: 2px solid black;
-    color: white;
-    background-color: grey;
-    font-size: 12;
-    border-radius: 6px 0px 9px 0px; 
-    /* angka di hitung dri pojok kiri atas */
-    margin: 5px 5px 10px 2px;
-    /* atas kanan bawah kiri */
-    padding: 3px 5px 3px 5px;
-
-   }
-   .tombol-i{
-    background-color: whitesmoke;
-    color: rgb(0, 0, 0);
-    border: 1px solid gray;
+    background-color: rgba(255, 7, 7, 0.911);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 0);
     border-radius: 3px;
     font-family: system-ui;
-    margin: 5px 10px 10px 2px;
+    /* atas kanan bawah kiri */
+    margin: 20px 10px 10px 1px;
+    padding: 3px 7px;
+
+   }
+   .tombol-k:hover{
+    background-color: rgb(180, 175, 175);
+    color: #fff;
+    border: 1px solid black;
+    
+   }
+   .tombol-i{
+    background-color: rgb(0, 255, 34);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 255, 34);
+    border-radius: 3px;
+    font-family: system-ui;
+    margin: 20px 10px 10px 1px;
     padding: 3px 7px;
 
    }
@@ -56,45 +61,55 @@
    .table-1{
     color: rgb(0, 0, 0);
     border-collapse: collapse;
+    border-left:1px solid #42414170;
+    border-right: 1px solid #42414170;
     
    }
    .table-1 th,td{
-    padding: 5px;
+    padding: 5px 20px 5px 5px;
     text-align: left;
-    border-bottom:1px solid #424141;
+    border-bottom:1px solid #42414170;
+    
    
    }
    tr:hover{
-    background-color: rgba(37, 37, 16, 0.479);
+    background-color: rgba(87, 87, 75, 0.185);
+   }
+   .thead-1{
+    background-color: #39a2db81;
+    pointer-events: none;
+    font-family: 'Inter', sans-serif;
    }
    .tombol-edit{
-    background-color: rgb(195, 0, 255);
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(195, 0, 255);
-    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 255);
+    border: 1px solid rgb(0, 0, 255);
+    border-radius: 6px;
     font-family: system-ui;
     margin:1px;
-    padding: 2px 7px;
-
+    padding: 5px 7px
    }
 
     .tombol-edit:hover{
-    background-color: rgb(208, 91, 243);
+    background-color: #0011ff;
     color: rgb(255, 255, 255);
-    border: 1px solid rgb(195, 0, 255);
+    border: 1px solid #0011ff;
         }
     .tombol-delete{
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     border: 1px solid rgb(255, 0, 0);
-    border-radius: 3px;
+    border-radius: 6px;
     font-family: system-ui;
     margin:1px;
-    padding: 2px 7px;
+    padding: 5px 7px;
 
    }
    .tombol-delete:hover{
-    background-color: rgb(238, 86, 86);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    color:#fff;
     border: 1px solid rgb(255, 0, 0);
    }
+   a {
+    display: inline-block;
+}
